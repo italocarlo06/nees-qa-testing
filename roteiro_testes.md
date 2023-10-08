@@ -6,21 +6,21 @@
 | **Versão**             | 0.10              |
 | **Última Atualização** | 08/10/2023        |
 
-**Introdução**
+## Introdução
  
 O processo de teste de software desempenha um papel crucial no ciclo de desenvolvimento de software. Através de testes rigorosos, podemos detectar e corrigir erros, garantir a estabilidade do sistema e assegurar que o aplicativo atenda às expectativas dos usuários. Cada caso de teste incluído neste roteiro contribui para a validação do aplicativo, assegurando que ele funcione de acordo com as especificações e proporcionando uma experiência confiável aos usuários.
 
-**Objetivos**
+## Objetivos
  
  Este documento tem como objetivo fornecer um guia abrangente para a avaliação dos aspectos funcionais deste aplicativo dedicado ao ensino e aprendizado da disciplina de matemática
 
- **Escopo**
+ ## Escopo
  
- Este roteiro de testes contempla somente aspectos funcionais da aplicação, ou seja, tudo que se refere aos requisitos funcionais especificados pelo engenheiro de requisitos. Os aspectos não-funcionais ou de qualidade serão cobertos em um outro roteiro específico.
+ Este roteiro de testes contempla somente aspectos funcionais da aplicação, ou seja, tudo que se refere aos requisitos funcionais especificados pelo engenheiro de requisitos. Os aspectos não-funcionais ou de qualidade serão cobertos em um outro roteiro específico. Ademais, foi levado em consideração que somente o professor tem acesso a este aplicativo. Esta decisão levou em consideração a visão geral da aplicação onde some o nome do professor é exibido junto ao aplicativo
 
- **Estrutura dos Casos de Testes**
+ ## Estrutura dos Casos de Testes
 
- Cada caso de teste presente neste roteiro seguirá a seguinte estrutura definida abaixo
+ Cada caso de teste apresentado neste roteiro seguirá a estrutura descrita a seguir:
 
  | Item      | Descrição                                           |
 |--------------------|---------------------------------------------------------------------------------------|
@@ -60,6 +60,19 @@ Com relação a criticidade foram definidos três níveis: Alto, Médio e Baixo.
 | **Alta**        | verificam funcionalidades críticas, requisitos essenciais e áreas de alto risco no aplicativo.     |
 | **Média**        | verificam funcionalidades importantes, mas podem não ser críticos para o sucesso imediato do projeto. Eles geralmente abordam funcionalidades secundárias ou requisitos menos críticos.|
 | **Baixa**        |  verificam funcionalidades periféricas, recursos opcionais ou requisitos que têm baixa importância.                              |
+
+
+## Casos de Testes
+
+### Casos de Testes de Login 
+
+### Casos de Testes de Recuperação de Senha
+
+### Casos de Testes de Correção de Atividade
+
+### Casos de Testes de Listas de Atividades
+
+### Casos de Testes de Agrupamento de Alunos
 
 
 
