@@ -67,7 +67,7 @@ Com relação a criticidade foram definidos três níveis: Alto, Médio e Baixo.
 ### Casos de Testes de Login 
 ![CT001.001](CT001.001.png)
 
-![CT001.002](CT001.003.png)
+![CT001.002](CT001.002.png)
 
 ![CT001.003](CT001.003.png)
 
