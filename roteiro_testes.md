@@ -18,6 +18,16 @@ O processo de teste de software desempenha um papel crucial no ciclo de desenvol
  
  Este roteiro de testes contempla somente aspectos funcionais da aplicação, ou seja, tudo que se refere aos requisitos funcionais especificados pelo engenheiro de requisitos. Os aspectos não-funcionais ou de qualidade serão cobertos em um outro roteiro específico. Ademais, foi levado em consideração que somente o professor tem acesso a este aplicativo. Esta decisão levou em consideração a visão geral da aplicação onde some o nome do professor é exibido junto ao aplicativo
 
+ ## Tipo de Teste
+ 
+ Este roteiro pode ser classificado como um teste caixa preta, onde o testador não precisa conhecer os detalhes da implementação. Baseia-se nos requisitos básicos do software, sendo o foco nos requisitos da aplicação, ou seja, nas ações que deve desempenhar. Se resumem em testes de entrada e saída.
+
+
+ ## Modo de Operação
+ 
+ Este roteiro foi concebido para ser executado manualmente pelos testadores. Com o intuito de evitar qualquer viés nos resultados os desenvolvedores da aplicação não devem estar envolvidos na sua execução.
+
+
  ## Estrutura dos Casos de Testes
 
  Cada caso de teste apresentado neste roteiro seguirá a estrutura descrita a seguir:
