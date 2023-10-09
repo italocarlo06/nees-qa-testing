@@ -29,7 +29,7 @@ O processo de teste de software desempenha um papel crucial no ciclo de desenvol
 
  ## Conjunto de Dados para os Testes
 
- Esta seção vai descrever os dados que deve estar no sistema antes da execução e ao final dele. Vale ressaltar que a cada nova execução do roteiro a base de teste de ser inicializada com os dados pré-cadastrados. O conjunto de dados pode sofrer alteração a medida que este roteiro de teste for atualizado. Outro ponto importante que não é objetivo desta seção destacar todas colunas das tabelas e sim permitir que o testador tem uma visão geral das informações, bem como do relacionamento entre elas.
+ Esta seção vai descrever os dados que deve estar no sistema antes da execução e ao final dele. Vale ressaltar que a cada nova execução do roteiro a base de teste de ser inicializada com os dados pré-cadastrados. O conjunto de dados pode sofrer alteração à medida que este roteiro de teste for atualizado. Outro ponto importante é que não é objetivo desta seção destacar todas colunas das tabelas e sim permitir que o testador tem uma visão geral das informações, bem como do relacionamento entre elas e resultados esperados.
  
  ### Dados Pré-Cadastrados
 
