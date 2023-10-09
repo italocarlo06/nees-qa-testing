@@ -27,6 +27,157 @@ O processo de teste de software desempenha um papel crucial no ciclo de desenvol
  
  Este roteiro foi concebido para ser executado manualmente pelos testadores. Com o intuito de evitar qualquer viés nos resultados os desenvolvedores da aplicação não devem estar envolvidos na sua execução.
 
+ ## Conjunto de Dados para os Testes
+
+ Esta seção vai descrever os dados que deve estar no sistema antes da execução e ao final dele. Vale ressaltar que a cada nova execução do roteiro a base de teste de ser inicializada com os dados pré-cadastrados. O conjunto de dados pode sofrer alteração a medida que este roteiro de teste for atualizado. Outro ponto importante que não é objetivo desta seção destacar todas colunas das tabelas e sim permitir que o testador tem uma visão geral das informações, bem como do relacionamento entre elas.
+ 
+ ### Dados Pré-Cadastrados
+
+ Abaixo segue o conjunto de dados que deve estar cadastrado na base de teste antes da execução do roteiro, são eles:
+ #### Usuários
+ |ID |Nome              | Email             | Login   | Senha  | Perfil   |
+ |---|------------------|-------------------|---------|--------|----------|
+ | 1 | **João da Silva**| joao@professor.com| joao123 | 123456 | Professor| 
+ | 2 | **Pedro José**   | pedro@professor.com| pedro123 | 123456 | Professor| 
+
+ #### Turmas
+ |ID |Descrição         | Professor             | 
+ |---|------------------|-------------------|
+ | 1 | **A**| 1| 
+ | 2 | **B**| 1| 
+ | 3 | **C**| 2| 
+
+ #### Alunos
+ |ID |Nome              | Turma             | 
+ |---|------------------|-------------------|
+ | 1 | **Paulo André**| 1|
+ | 2 | **Sofia Andrade**| 1|
+ | 3 | **Pedro Paulino**| 1|
+ | 4 | **Amanda Silva**| 2|
+ | 5 | **Mayara Lopes**| 2|
+ | 6 | **João Guimarães**| 2|
+ | 7 | **Isabelle Figueredo**| 3|
+ | 8 | **Marcos Leão**| 3|
+ | 9 | **Noah Oliveira**| 3|
+
+ #### Categorias de Questões
+ 
+ |ID |Descrição         | 
+ |---|------------------|
+ | 1 | **Resolução de equações e sistemas de equações**|
+ | 2 | **Teorema de Pitágoras e trigonometria**|
+ 
+ 
+ #### Atividades
+ |ID |Descrição              | Categoria             | 
+ |---|------------------|-------------------|
+ | 1 | **Resolução de Equação Linear**| 1|
+ | 2 | **Resolução de Equação Linear-2**| 1|
+ | 3 | **Resolução de Equação Quadrática**| 1|
+ | 4 | **Resolução de Equação Quadrática-2**| 1|
+ | 5 | **Resolução de Equação Quadrática-3**| 1|
+ | 6 | **Sistema de Equações Lineares:**| 1|
+ | 7 | **Sistema de Equações Lineares-2:**| 1|
+ | 8 | **Sistema de Equações Lineares-3:**| 1|
+ | 9 | **Sistema de Equações Quadráticas:**| 1|
+ | 10 | **Resolução de Equação Linear**| 1|
+ | 11 | **Teorema de Pitágoras - Encontrando um Lado**| 2|
+ | 12 | **Teorema de Pitágoras - Encontrando um Lado-2**| 2|
+ | 13 | **Teorema de Pitágoras - Encontrando um Lado-3**| 2|
+ | 14 | **Teorema de Pitágoras - Verificando Triângulos Retângulos**| 2|
+ | 15 | **Teorema de Pitágoras - Verificando Triângulos Retângulos-2**| 2|
+ | 16 | **Teorema de Pitágoras - Verificando Triângulos Retângulos-3**| 2|
+ | 17 | **Trigonometria - Cálculo de Ângulos:**| 2|
+ | 18 | **Trigonometria - Cálculo de Ângulos-2:**| 2|
+ | 19 | **Trigonometria - Cálculo de Ângulos-3:**| 2|
+ | 20 | **Trigonometria - Cálculo de Ângulos-4**| 2|
+
+
+ ### Dados para Cadastrar durante a execução
+
+ #### Correção de Atividades
+
+ As informações abaixo serão disponibilizadas de Forma Impressa para que o testador possar utilizar o recurso de fotografia durante a correção. O testador deve verificar se o sistema vai se comportar corretamente no que se refere a verificação da resposta da atividade.
+
+   |Atividade | Aluno |Cadastrada | Correta |Legível |
+   |----------|-------|---------|-----------|--------|
+   |1 | 1 | Sim | Sim | Sim |
+   |3 | 1 | Sim |Sim |Sim |
+   |5 | 1 | Sim |Sim |Sim |
+   |21 | 1 | Não |Não |Sim |
+   |11 | 1 | Sim |Sim |Sim |
+   |12 | 1 | Sim |Sim |Sim |
+   |13 | 1 | Sim |Sim |Sim |
+   |2 | 2 | Sim |Sim |Sim |
+   |3 | 2 | Sim |Sim |Sim |
+   |8 | 2 | Sim |Sim |Sim |
+   |12 | 2 | Sim |Sim |Sim |
+   |14 | 2 | sim |Não |Sim |
+   |18 | 2 | Sim |Não |Sim |
+   |5 | 3 | Sim |Sim |Sim |
+   |9 | 3 | Sim |Não |Sim |
+   |10 | 3 | Sim |Não |Sim |
+   |12 | 3 | Sim |Sim |Sim |
+   |16 | 3 | Sim |Não |Sim |
+   |17 | 3 | Sim |Não |Sim |
+   |2 | 4 | Sim | Não |Sim |
+   |8 | 4 | Sim |Não |Sim |
+   |9 | 4 | Sim |Não |Sim |
+   |11 | 4 | Sim |Sim |Sim |
+   |12 | 4 | Sim |Sim |Sim |
+   |13 | 4 | Sim |Sim |Sim |
+   |1 | 5 | Sim |Sim |Sim |
+   |4 | 5 | Sim |Sim |Sim |
+   |5 | 5 | Sim |Sim |Sim |
+   |11 | 5 | Sim |Sim |Sim |
+   |16 | 5 | Sim |Sim |Sim |
+   |20 | 5 | Sim |Sim |Sim |
+   |2 | 6 | Sim |Sim |Sim |
+   |4 | 6 | Sim |Sim |Sim |
+   |9 | 6 | Sim |Sim |Sim |
+   |12 | 6 | Sim |Sim |Sim |
+   |16 | 6 | Sim |Sim |Sim |
+   |17 | 6 | Sim |Sim |Sim |
+   |1 | 7 | Sim | Não |Sim |
+   |2 | 7 | Sim |Sim |Sim |
+   |10 | 7 | Sim |Não |Sim |
+   |14 | 7 | Sim |Não |Sim |
+   |15 | 7 | Sim |Não |Sim |
+   |19 | 7 | Sim |Não |Sim |
+   |22 | 1 | Não |Não |Sim |
+   |2 | 8 | Sim |Sim |Sim |
+   |8 | 8 | Sim |Sim |Sim |
+   |10 | 8 | Sim |Sim |Sim |
+   |11 | 8 | Sim |Sim |Sim |
+   |17 | 8 | Sim |Sim |Sim |
+   |20 | 8 | Sim |Sim |Sim |
+   |4 | 9 | Sim |Sim |Sim |
+   |6 | 9| Sim |Sim |Sim |
+   |7 |9 | Sim |Sim |Sim |
+   |13 | 9| Sim |Sim |Sim |
+   |16 | 9 | Sim |Não |Sim |
+   |18 | 9 | Sim |Não |Sim |
+
+Estes devem ser os resultados esperados após as correções das atividades
+#### Lista de Atividades
+|Aluno | Tem Lista |Grupos |   
+|----------|-------|-------|
+|1 | Não | - |
+|2 | Sim | 2 |
+|3 | Sim | 1 e 2 |
+|4 | Sim | 2 |
+|5 | Não | - |
+|6| Não | - |
+|7 | Sim | 1 e 2 |
+|8 | Não | - |
+|9 | Sim | 2 |
+
+
+#### Agrupamento de Alunos
+|ID |Grupo | Alunos|   
+|---|-------|-------|
+|1 | Alunos com dificuldades no Tópicos 1 e 2| 3 e 7 |
+|1 | Alunos com dificuldades no Tópicos 2| 2,3,4, 7, 9 |
 
  ## Estrutura dos Casos de Testes
 
