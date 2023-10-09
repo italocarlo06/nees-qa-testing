@@ -91,7 +91,18 @@ Com relação a criticidade foram definidos três níveis: Alto, Médio e Baixo.
 
 ### Casos de Testes de Listas de Atividades
 
+![CT004.001](CT004.001.png)
+
+![CT004.002](CT004.002.png)
+
+![CT004.003](CT004.003.png)
+
 ### Casos de Testes de Agrupamento de Alunos
+
+![CT005.001](CT005.001.png)
+
+![CT005.002](CT005.002.png)
+
 
 
 
